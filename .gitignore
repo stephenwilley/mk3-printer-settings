@@ -1,0 +1,14 @@
+# Secrets (Moonraker tokens etc. — split via [include])
+secrets.conf
+
+# Editor / Klipper backups
+*.bak
+*.bkp
+*.backup
+*.tmp
+
+# Mainsail SAVE_CONFIG timestamped backups (not printer.cfg itself)
+printer-*.cfg
+
+# Klippain Shake&Tune output (not used on mk3, kept for parity with trident)
+ShakeTune_results/
